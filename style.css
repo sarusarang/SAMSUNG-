@@ -134,6 +134,13 @@ body {
 /* slider */
 
 
+.slider-main {
+    
+    z-index: -22;
+    margin-left: 6%;
+    margin-right: 5%;
+}
+
 .slider-next {
     background-color: #000;
     border-radius: 22px;
@@ -357,9 +364,9 @@ body {
     /* slider button */
 
     .slider-next {
-        width: 30px;
-        height: 30px;
-    
+        width: 15px;
+        height: 15px;
+
     }
 
 
@@ -391,6 +398,76 @@ body {
         margin-bottom: 1px;
     }
 
+
+
+
+    /* slide 2 */
+
+    .slide-mid2 {
+        position: absolute;
+        top: 40%;
+        left: 12%
+    }
+
+
+    .slide-mid2 h2 {
+
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .slider-btn2 {
+
+        width: 80px;
+        height: 20px;
+        font-size: x-small;
+    }
+
+    .slide-mid2 p {
+
+        font-size: x-small;
+        margin-bottom: 2px;
+
+    }
+
+
+
+    /* slider 3  */
+
+
+    .slide-mid3 {
+        position: absolute;
+        top: 27%;
+        left: 48%
+    }
+
+
+    .slide-mid3 h2 {
+
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+
+    .slider-btn3 {
+
+        width: 85px;
+        height: 19px;
+        font-size: xx-small;
+    }
+
+    .slide-mid3 p {
+
+        margin-bottom: 2px;
+        font-size: xx-small;
+
+
+    }
+
+
+
+
+
 }
 
 /* resposive for i pad and tab */
@@ -404,9 +481,9 @@ body {
     /* slider button */
 
     .slider-next {
-        width: 30px;
-        height: 30px;
-    
+        width: 17px;
+        height: 17px;
+
     }
 
     /* slide 1 */
@@ -435,6 +512,70 @@ body {
     .slide-mid p {
         font-size: small;
     }
+
+
+    /* slide 2 */
+
+    .slide-mid2 {
+        position: absolute;
+        top: 40%;
+        left: 12%
+    }
+
+
+    .slide-mid2 h2 {
+
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .slider-btn2 {
+
+        width: 90px;
+        height: 20px;
+        font-size: small;
+    }
+
+    .slide-mid2 p {
+
+        font-size: small;
+        margin-bottom: 2px;
+
+    }
+
+
+    /* slider 3  */
+
+
+    .slide-mid3 {
+        position: absolute;
+        top: 27%;
+        left: 48%
+    }
+
+
+    .slide-mid3 h2 {
+
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+
+    .slider-btn3 {
+
+        width: 100px;
+        height: 25px;
+        font-size: x-small;
+    }
+
+    .slide-mid3 p {
+
+        margin-bottom: 2px;
+        font-size: small;
+
+
+    }
+
 
 
 
@@ -453,9 +594,9 @@ body {
     /* slider button */
 
     .slider-next {
-        width: 30px;
-        height: 30px;
-    
+        width: 18px;
+        height: 18px;
+
     }
 
     .slide-mid {
@@ -485,6 +626,69 @@ body {
     }
 
 
+    /* slide 2 */
+
+    .slide-mid2 {
+        position: absolute;
+        top: 40%;
+        left: 12%
+    }
+
+
+    .slide-mid2 h2 {
+
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .slider-btn2 {
+
+        width: 95px;
+        height: 25px;
+        font-size: small;
+    }
+
+    .slide-mid2 p {
+
+        font-size: small;
+        margin-bottom: 2px;
+
+
+    }
+
+
+    /* slider 3  */
+
+
+    .slide-mid3 {
+        position: absolute;
+        top: 27%;
+        left: 48%
+    }
+
+
+    .slide-mid3 h2 {
+
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+
+    .slider-btn3 {
+
+        width: 100px;
+        height: 25px;
+        font-size: x-small;
+    }
+
+    .slide-mid3 p {
+
+        margin-bottom: 2px;
+        font-size: small;
+
+
+    }
+
 
 
 
@@ -501,7 +705,7 @@ body {
     .slider-next {
         width: 30px;
         height: 30px;
-    
+
     }
 
     /* slide 1 */
@@ -543,36 +747,52 @@ body {
     .slide-mid2 h2 {
 
         font-weight: bold;
-        font-size: 48px;
-        line-height: 1.2;
-        color: #fff;
-        word-wrap: break-word
+        font-size: 30px;
     }
 
     .slider-btn2 {
 
-        width: 125px;
-        height: 40px;
-        border: none;
-        outline: none;
-        background-color: #fff;
-        color: #000;
-        border-radius: 28px;
-        font-size: smaller;
-        font-weight: bold;
-        transition: background ease-out 0.6s;
-    }
-
-    .slider-btn2:hover {
-
-        background-color: #767676;
-        color: #000;
-
+        width: 110px;
+        height: 30px;
+        font-size: small;
     }
 
     .slide-mid2 p {
 
-        color: #fff;
+        font-size: smaller;
+        margin-bottom: 2px;
+
+
+    }
+
+
+    /* slider 3  */
+
+
+    .slide-mid3 {
+        position: absolute;
+        top: 27%;
+        left: 48%
+    }
+
+
+    .slide-mid3 h2 {
+
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .slider-btn3 {
+
+        width: 115px;
+        height: 33px;
+        font-size: smaller;
+    }
+
+    .slide-mid3 p {
+
+        margin-bottom: 2px;
+
 
     }
 
