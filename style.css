@@ -289,7 +289,220 @@ body {
 
 }
 
+/* HERO 1 */
 
+.hero1 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.indicator {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+
+}
+
+.btn-indicators {
+
+    margin-right: 25px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    transition: border ease-in 0.9s;
+    position: relative;
+
+
+}
+
+.btn-indicators::after {
+    content: '';
+    width: 0%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 21px;
+    transition: 0.5s;
+}
+
+.btn-indicators:hover::after {
+
+    width: 100%;
+}
+
+
+
+.hero-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* hero1-box1  */
+
+.box1-hover {
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+
+}
+
+.box1-hover img {
+    transition: all .3s ease;
+    object-fit: cover;
+
+}
+
+.box1-hover img:hover {
+
+    transform: scale(1.06);
+
+}
+
+.box1-h1 {
+    position: absolute;
+    bottom: 14%;
+    width: 100%;
+
+}
+
+.box1-h1 h5 {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.box1-p {
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    font-size: smaller;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.box1-btn {
+
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.box1-btn button {
+
+
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 22px;
+    font-size: smaller;
+    width: 95px;
+    font-weight: 600;
+    height: 40px;
+
+}
+
+.box1-hover:hover .box1-p {
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.box1-hover:hover .box1-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* hero1-box2 */
+
+.box2-hover {
+
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+
+
+
+}
+
+.box2-hover img {
+
+    transition: all .3s ease;
+    object-fit: cover;
+}
+
+.box2-hover img:hover {
+    transform: scale(1.06);
+}
+
+.box2-h1 {
+    position: absolute;
+    bottom: 23%;
+    width: 100%;
+
+}
+
+.box2-h1 h5 {
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.box2-p {
+
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    font-size: small;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+    margin-bottom: 0px;
+}
+
+.box2-btn {
+
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.box2-btn button {
+
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 22px;
+    font-size: smaller;
+    width: 95px;
+    font-weight: 600;
+    height: 40px;
+
+}
+
+.box2-hover:hover .box2-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+.box2-hover:hover .box2-p {
+    visibility: hidden;
+    opacity: 0;
+}
 
 /* responsive */
 
@@ -473,7 +686,7 @@ body {
     }
 
 
-    .btn-indi{
+    .btn-indi {
         display: none;
     }
 
@@ -589,7 +802,7 @@ body {
     }
 
 
- 
+
 
 
 
