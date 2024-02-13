@@ -289,7 +289,13 @@ body {
 
 }
 
+
+
+
+
 /* HERO 1 */
+
+
 
 .hero1 {
     margin-left: 3%;
@@ -298,11 +304,11 @@ body {
 
 .indicator {
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
     margin-right: 15%;
     margin-bottom: 1rem;
-    margin-left: 15%;
+    margin-left: 15%; */
 
 }
 
@@ -504,6 +510,15 @@ body {
     opacity: 0;
 }
 
+.item-flex {
+    display: flex;
+}
+
+
+.mob-pad {
+    padding-left: 22px;
+}
+
 /* responsive */
 
 
@@ -691,6 +706,131 @@ body {
     }
 
 
+    /* HERO1 */
+
+    .mob-top {
+
+        margin-top: 15px !important;
+
+    }
+
+    .box1-hover {
+
+        margin-bottom: 15px;
+
+    }
+
+    .item-flex {
+        display: block;
+    }
+
+    .btn-indicators {
+
+        font-size: 8px;
+        font-weight: bold;
+        margin-right: 15px;
+
+    }
+
+
+    .hero-h1 {
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+
+    .btn-indicators::after {
+
+        top: 12px;
+    }
+
+    .indicator {
+        margin-top: -18px;
+    }
+
+    .mob-pad {
+        padding-left: 0px;
+    }
+
+
+
+    .box1-btn {
+
+        position: absolute;
+        bottom: 5%;
+
+
+    }
+
+
+    .box1-btn button {
+
+
+
+        width: 90px;
+        font-weight: 600;
+        height: 35px;
+
+    }
+
+
+    .box1-p {
+
+        bottom: 3%;
+        font-size: small;
+
+    }
+
+
+    .box1-h1 h5 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+
+
+
+
+
+
+    .box2-h1 {
+
+        bottom: 23%;
+
+
+    }
+
+    .box2-h1 h5 {
+       
+        font-size: x-small;
+        
+    }
+
+    .box2-p {
+
+        bottom: 5%;
+        font-size: 6px;
+        
+    }
+
+    .box2-btn {
+
+        bottom: 5%;
+        
+        
+    }
+
+
+    .box2-btn button {
+
+       
+        font-size: xx-small;
+        width: 50px;
+        font-weight: 600;
+        height: 19px;
+
+    }
 
 
 }
@@ -802,9 +942,111 @@ body {
     }
 
 
+    /* HERO 1 */
 
 
 
+    .btn-indicators {
+
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+
+    .hero-h1 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+    .btn-indicators::after {
+
+        top: 14px;
+    }
+
+
+    .indicator {
+        margin-top: -12px;
+    }
+
+
+
+
+    .box1-btn {
+
+        position: absolute;
+        bottom: 5%;
+
+
+    }
+
+
+    .box1-btn button {
+
+
+
+        width: 70px;
+        font-weight: 600;
+        height: 25px;
+
+    }
+
+
+    .box1-p {
+
+        bottom: 0%;
+        font-size: x-small;
+
+    }
+
+
+    .box1-h1 h5 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+
+
+
+
+    .box2-h1 {
+
+        bottom: 17%;
+
+
+    }
+
+    .box2-h1 h5 {
+       
+        font-size: xx-small;
+        
+    }
+
+    .box2-p {
+
+        bottom: -13%;
+        font-size: 6px;
+        
+    }
+
+    .box2-btn {
+
+        bottom: 5%;
+        
+        
+    }
+
+
+    .box2-btn button {
+
+       
+        font-size: 6px;
+        width: 35px;
+        font-weight: 600;
+        height: 10px;
+
+    }
 
 
 }
@@ -917,6 +1159,83 @@ body {
     }
 
 
+    /* HERO 1 */
+
+
+    .btn-indicators {
+
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+
+
+
+    .box1-btn {
+
+        position: absolute;
+        bottom: 5%;
+
+
+    }
+
+
+    .box1-btn button {
+
+
+
+        width: 85px;
+        font-weight: 600;
+        height: 30px;
+
+    }
+
+
+    .box1-p {
+
+        bottom: -1%;
+
+    }
+
+
+
+    .box2-h1 {
+
+        bottom: 22%;
+
+
+    }
+
+    .box2-h1 h5 {
+       
+        font-size: x-small;
+        
+    }
+
+    .box2-p {
+
+        bottom: -8%;
+        font-size: xx-small;
+        
+    }
+
+    .box2-btn {
+
+        bottom: 8%;
+        
+        
+    }
+
+
+    .box2-btn button {
+
+       
+        font-size: xx-small;
+        width: 45px;
+        font-weight: 600;
+        height: 20px;
+
+    }
 
 
 }
@@ -1024,6 +1343,76 @@ body {
     }
 
 
+    /* Hero1 */
+
+
+    .box1-btn {
+
+        position: absolute;
+        bottom: 7%;
+
+
+    }
+
+
+    .box1-btn button {
+
+
+
+        width: 90px;
+        font-weight: 600;
+        height: 35px;
+
+    }
+
+
+    .box1-p {
+
+        bottom: 7%;
+
+    }
+
+
+
+
+    .box2-h1 {
+
+        bottom: 22%;
+
+
+    }
+
+    .box2-h1 h5 {
+       
+        font-size: small;
+        
+    }
+
+    .box2-p {
+
+        bottom: -4%;
+        font-size: x-small;
+        
+    }
+
+    .box2-btn {
+
+        bottom: 8%;
+        
+        
+    }
+
+
+    .box2-btn button {
+
+       
+        font-size: x-small;
+        width: 60px;
+        font-weight: 600;
+        height: 25px;
+
+    }
+
 
 
 }
@@ -1038,6 +1427,13 @@ body {
         font-size: 10px;
 
 
+    }
+
+    .box2-p {
+
+        bottom: 5% !important;
+        font-size: x-small;
+        
     }
 
 }
@@ -1088,9 +1484,21 @@ body {
 
     }
 
+
+  
+
 }
 
 
 /* responsive for higher devices */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+    .box2-p {
+
+        bottom: 4%;
+        font-size: small;
+        
+    }
+
+}
