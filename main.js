@@ -37,7 +37,7 @@ window.onload = function() {
   
   // Listen for the resize event and rerun the functions when the resolution changes
   window.addEventListener('resize', function() {
-
+    
     MobVideo();
     MobImg();
     MobiImg();
