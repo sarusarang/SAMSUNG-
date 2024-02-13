@@ -3,6 +3,7 @@
 
 
 // img-1
+
 function MobVideo()
 {
 
@@ -18,10 +19,10 @@ function MobVideo()
 
 
 var windowWidth = window.innerWidth;
-  if(windowWidth < 481)
-  {
-    MobVideo()
-  }
+
+window.onload = MobVideo()
+
+ 
 
 
 
