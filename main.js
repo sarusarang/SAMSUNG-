@@ -31,6 +31,11 @@ function MobImages() {
     document.getElementById('mobimg5').src='Img/NEWIMG/MOB-3.avif'
     document.getElementById('mobimg6').src='Img/NEWIMG/MOB-4.avif'
     document.getElementById('mobimg7').src='Img/NEWIMG/MOB-5.avif'
+    document.getElementById('mobimg8').src='Img/NEWIMG/HERO-2-2/MOB-1.avif'
+    document.getElementById('mobimg9').src='Img/NEWIMG/HERO-2-2/MOB-2.avif'
+    document.getElementById('mobimg10').src='Img/NEWIMG/HERO-2-2/MOB-3.avif'
+    document.getElementById('mobimg11').src='Img/NEWIMG/HERO-2-2/MOB-4.avif'
+    document.getElementById('mobimg12').src='Img/NEWIMG/HERO-2-2/MOB-5.avif'
 
 
   }
@@ -94,3 +99,28 @@ for (var i = 0; i < btns.length; i++) {
 
   });
 }
+
+
+
+
+// active slider 2
+
+var header = document.getElementById("myDIV1");
+
+var btns = header.getElementsByClassName("btn-indi1");
+
+for (var i = 0; i < btns.length; i++) {
+
+  btns[i].addEventListener("click", function() {
+
+  var current = document.getElementsByClassName("border-active1");
+
+  current[0].className = current[0].className.replace("border-active1", "");
+
+  this.className += " border-active1";
+
+  });
+}
+
+
+
