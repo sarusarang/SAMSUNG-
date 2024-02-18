@@ -292,8 +292,6 @@ body {
 
 /* HERO 1 */
 
-
-
 .hero1 {
     margin-left: 3%;
     margin-right: 3%;
@@ -309,27 +307,14 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #000;
-    transition: border ease-in 0.9s;
     position: relative;
-
-
 }
 
-.btn-indicators::after {
-    content: '';
-    width: 0%;
-    height: 4px;
-    background-color: #000;
-    position: absolute;
-    left: 0;
-    top: 21px;
-    transition: 0.5s;
+.border-active0 {
+
+    border-bottom: 3px solid #000;
 }
 
-.btn-indicators:hover::after {
-
-    width: 100%;
-}
 
 
 
@@ -339,6 +324,7 @@ body {
     align-items: center;
     font-weight: bold;
 }
+
 
 /* hero1-box1  */
 
@@ -508,6 +494,105 @@ body {
     padding-left: 22px;
 }
 
+
+
+
+/* HERO-2 */
+
+
+.hero-2 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.btn-indicators1 {
+
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.btn-indi1 {
+
+    margin-right: 4%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: large;
+}
+
+.border-active {
+
+    border-bottom: 3px solid #000;
+}
+
+.hero-2-head {
+
+    position: absolute;
+    top: 3%;
+    z-index: 10000;
+    margin-left: 15%;
+    margin-right: 15%;
+    left: 0;
+    right: 0;
+}
+
+.hero-2-head h1 {
+
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.hero2-box {
+
+    position: absolute;
+    bottom: 3%;
+    right: 0;
+    left: 0;
+}
+
+.hero2-box p {
+
+    margin-bottom: 0px;
+    font-size: medium;
+
+}
+
+.hero2-box h1 {
+
+    font-weight: 600;
+    font-size: xxx-large;
+}
+
+.hero2-btn {
+
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 22px;
+    font-weight: 600;
+    transition: background ease-in-out 0.2s;
+
+}
+
+.hero2-btn:hover {
+
+    background-color: #525252;
+
+
+
+}
+
 /* responsive */
 
 
@@ -605,12 +690,12 @@ body {
         margin-right: 10px !important;
     }
 
-    .mob-btn:hover{
+    .mob-btn:hover {
 
         background-color: #000 !important;
     }
 
-   
+
     .carousel-indicators {
         position: absolute;
         right: 0;
@@ -625,7 +710,7 @@ body {
         margin-left: 28%;
         width: 40%;
         height: 5%;
-       
+
     }
 
 
@@ -885,6 +970,47 @@ body {
 
     }
 
+    /* hero-2 */
+
+
+    .btn-indi1 {
+
+        margin-right: 2%;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .btn-indicators1{
+        top: 8%;
+    }
+
+
+    .hero-2 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 8%;
+        right: 0;
+        left: 0;
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: small;
+
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 37px;
+        margin-bottom: 0px;
+    }
 
 }
 
@@ -1102,6 +1228,54 @@ body {
     }
 
 
+
+    /* hero-2 */
+
+    .btn-indi1 {
+
+        margin-right: 3%;
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 2%;
+
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: 8px;
+
+    }
+
+    .hero2-headh1 {
+
+        font-size: x-large;
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .hero2-btn {
+
+        width: 48px;
+        height: 18px;
+        font-size: xx-small;
+    }
+
+    .hero2-btnhead {
+
+        margin-top: 0px !important;
+    }
+
 }
 
 /* responsive for i pad and tabs */
@@ -1290,6 +1464,47 @@ body {
 
     }
 
+    /* hero-2 */
+
+    .btn-indi1 {
+
+        margin-right: 4%;
+        font-weight: 600;
+        font-size: x-small;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 2%;
+
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: xx-small;
+
+    }
+
+    .hero2-headh1 {
+
+        font-size: x-large;
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .hero2-btn {
+
+        width: 55px;
+        height: 20px;
+        font-size: x-small;
+    }
 
 }
 
@@ -1471,6 +1686,47 @@ body {
 }
 
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    /* hero-2 */
+
+    .btn-indi1 {
+
+        margin-right: 4%;
+        font-weight: 600;
+        font-size: small;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 2%;
+
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: x-small;
+
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .hero2-btn {
+
+        width: 72px;
+        height: 25px;
+        font-size: small;
+    }
+
+}
+
 
 
 /* navbar responsive */
@@ -1489,6 +1745,51 @@ body {
 
     }
 
+    /* hero-2 */
+
+    .btn-indicators1 {
+        top: 10%;
+        right: 0;
+        left: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .btn-indi1 {
+
+        margin-right: 4%;
+        font-weight: 600;
+        font-size: large;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 2%;
+        right: 0;
+        left: 0;
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: small;
+
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 37px;
+    }
+
+    .hero2-btn {
+
+        width: 90px;
+        height: 35px;
+        border-radius: 22px;
+        font-weight: 600;
+    }
 }
 
 
