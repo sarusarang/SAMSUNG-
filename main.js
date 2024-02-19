@@ -25,7 +25,7 @@ function MobImages() {
   if (windowWidth < 481) {
     
     document.getElementById('mobimg1').src ='https://images.samsung.com/is/image/samsung/assets/in/eureka2024/HOME_Live-Translate_Main-KV_720x1080_mo.jpg?imwidth=720';
-    document.getElementById('mobimg2').src ='https://images.samsung.com/is/image/samsung/assets/in/home/0208/Combo_720x1080-1.jpg?imwidth=720';
+    document.getElementById('mobimg2').src ='Img/MOB-SLIDER-NEO.jpg';
     document.getElementById('mobimg3').src='Img/NEWIMG/MOB-1.avif'
     document.getElementById('mobimg4').src='Img/NEWIMG/MOB-2.avif'
     document.getElementById('mobimg5').src='Img/NEWIMG/MOB-3.avif'
@@ -36,6 +36,12 @@ function MobImages() {
     document.getElementById('mobimg10').src='Img/NEWIMG/HERO-2-2/MOB-3.avif'
     document.getElementById('mobimg11').src='Img/NEWIMG/HERO-2-2/MOB-4.avif'
     document.getElementById('mobimg12').src='Img/NEWIMG/HERO-2-2/MOB-5.avif'
+    document.getElementById('mobimg13').src='Img/NEWIMG/HERO-2-3/MOB-1.avif'
+    document.getElementById('mobimg14').src='Img/NEWIMG/HERO-2-3/MOB-2.avif'
+    document.getElementById('mobimg15').src='Img/NEWIMG/HERO-2-3/MOB-3.avif'
+    document.getElementById('mobimg16').src='Img/NEWIMG/HERO-2-3/MOB-4.avif'
+    document.getElementById('mobimg17').src='Img/NEWIMG/HERO-2-3/MOB-5.avif'
+    
 
 
   }
@@ -118,6 +124,27 @@ for (var i = 0; i < btns.length; i++) {
   current[0].className = current[0].className.replace("border-active1", "");
 
   this.className += " border-active1";
+
+  });
+}
+
+
+
+// active slider 3
+
+var header = document.getElementById("myDIV2");
+
+var btns = header.getElementsByClassName("btn-indi1");
+
+for (var i = 0; i < btns.length; i++) {
+
+  btns[i].addEventListener("click", function() {
+
+  var current = document.getElementsByClassName("border-active2");
+
+  current[0].className = current[0].className.replace("border-active2", "");
+
+  this.className += " border-active2";
 
   });
 }
