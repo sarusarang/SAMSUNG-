@@ -603,6 +603,155 @@ body {
 
 }
 
+
+/* PRODUCT-SLIDER */
+
+.col-carousel {
+	margin: 70px 0;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
+
+
+.Product-card{
+
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 17px;
+    
+}
+
+.card-title{
+
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: medium;
+}
+
+.card-text{
+
+    font-size: small;
+    font-weight: bold;
+}
+
+.card-text span{
+
+    font-size: smaller;
+    color: #767676;
+    font-weight: normal;
+}
+
+
+.Product-btn{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: none;
+
+}
+
+.Product-btn:focus{
+
+    border: dotted white;
+
+
+}
+
+.Product-btn2{
+
+    border: none;
+    border-radius: 22px;
+    width: 50px;
+    height: 30px;
+    font-size: x-small;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: transparent;
+
+}
+
+.strg-active{
+
+    border: 1px solid #000;
+
+}
+
+.strg-active2{
+
+    border: 1px solid #000;
+
+}
+
+.strg-active3{
+
+    border: 1px solid #000;
+
+}
+
+.Product-price p{
+
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+
+.Product-price a{
+
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+
+.Product-price span{
+
+    font-size: 12px;
+    color: blue;
+}
+
+.Product-buybtn{
+
+    width: 90%;
+    height: 40px;
+    font-size: small;
+    border-radius: 22px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    outline: none;
+
+
+}
+
+
+
 /* responsive */
 
 
