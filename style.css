@@ -39,7 +39,7 @@ body {
 
 }
 
-.nav-heg{
+.nav-heg {
     height: 80px;
 }
 
@@ -764,7 +764,7 @@ button:active {
 
 }
 
-.break{
+.break {
     display: none;
 }
 
@@ -772,7 +772,765 @@ button:active {
 
 /* resposive for mobile device */
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 400px) {
+
+/* navbar */
+    .logo-size {
+
+        margin-left: 0px;
+        margin-right: 0px;
+
+
+    }
+
+    .nav-heg {
+        height: 60px;
+    }
+
+    .break {
+        display: block;
+    }
+
+    .icon-size {
+        width: 90px;
+    }
+
+    .nav-btn {
+        border: none;
+        outline: none;
+        font-size: small;
+        margin-right: 10px;
+        background-color: transparent;
+    }
+
+    .nav-display {
+
+        display: block;
+
+    }
+
+    .btn-size {
+        font-size: small;
+
+    }
+
+
+    .drop:hover .drop-content {
+        display: none;
+    }
+
+    .ham-nodis {
+
+        display: none;
+
+    }
+
+
+    .nav-text-style {
+        color: #767676;
+        transition: color ease-out 0.8s;
+
+    }
+
+    .nav-text-style:hover {
+
+        background-color: transparent;
+        color: #000;
+
+    }
+
+
+    /* slider  */
+
+    .slider-main {
+
+        z-index: -22;
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+
+    .mob-indi {
+
+        background-color: #fff;
+        border: 1px solid #767676;
+        border-radius: 22px;
+        width: 65%;
+
+    }
+
+    .mob-btn {
+
+        background-color: #767676 !important;
+        height: 9px !important;
+        width: 9px !important;
+        border-radius: 50% !important;
+        margin-right: 10px !important;
+    }
+
+    .mob-btn:hover {
+
+        background-color: #000 !important;
+    }
+
+
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 28%;
+        margin-bottom: 1rem;
+        margin-left: 28%;
+        width: 40%;
+        height: 5%;
+
+    }
+
+
+    /* slider button */
+
+    .slider-next {
+        width: 15px;
+        height: 15px;
+
+    }
+
+
+    /* slide1 */
+    .slide-mid {
+
+        position: absolute;
+        top: 9%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .slide-mid h2 {
+
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .slider-btn {
+        width: 110px;
+        height: 50px;
+        font-size: small;
+        font-weight: bold;
+        border-radius: 40px
+    }
+
+    .slide-mid p {
+        font-size: medium;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+
+
+
+    .btn-flex {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+
+    }
+
+
+    /* slide 2 */
+
+    .slide-mid2 {
+        position: absolute;
+        top: 9%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .slide-mid2 h2 {
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .slider-btn2 {
+
+        width: 110px;
+        height: 50px;
+        font-size: small;
+        font-weight: bold;
+        border-radius: 40px
+    }
+
+    .slide-mid2 p {
+
+        font-size: small;
+        text-align: center;
+        margin-bottom: 1px;
+
+    }
+
+
+
+    /* slider 3  */
+
+
+    .slide-mid3 {
+        position: absolute;
+        top: 9%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .slide-mid3 h2 {
+
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .slider-btn3 {
+
+        width: 110px;
+        height: 50px;
+        font-size: small;
+        font-weight: bold;
+        border-radius: 40px
+    }
+
+    .slide-mid3 p {
+
+        font-size: small;
+        text-align: center;
+        margin-bottom: 1px;
+
+
+    }
+
+
+    .btn-indi {
+        display: none;
+    }
+
+
+    /* HERO1 */
+
+    .mob-top {
+
+        margin-top: 15px !important;
+
+    }
+
+    .box1-hover {
+
+        margin-bottom: 15px;
+
+    }
+
+    .item-flex {
+        display: block;
+    }
+
+    .btn-indicators {
+
+        font-size: 8px;
+        font-weight: bold;
+        margin-right: 15px;
+
+    }
+
+
+    .hero-h1 {
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+
+    .btn-indicators::after {
+
+        top: 12px;
+    }
+
+    .indicator {
+        margin-top: -18px;
+    }
+
+    .mob-pad {
+        padding-left: 0px;
+    }
+
+
+
+    .box1-btn {
+
+        position: absolute;
+        bottom: 5%;
+
+
+    }
+
+
+    .box1-btn button {
+
+
+
+        width: 90px;
+        font-weight: 600;
+        height: 35px;
+
+    }
+
+
+    .box1-p {
+
+        bottom: 3%;
+        font-size: small;
+
+    }
+
+
+    .box1-h1 h5 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+
+
+    .box2-h1 {
+
+        bottom: 23%;
+
+
+    }
+
+    .box2-h1 h5 {
+
+        font-size: x-small;
+
+    }
+
+    .box2-p {
+
+        bottom: 5%;
+        font-size: 6px;
+
+    }
+
+    .box2-btn {
+
+        bottom: 5%;
+
+
+    }
+
+
+    .box2-btn button {
+
+
+        font-size: xx-small;
+        width: 50px;
+        font-weight: 600;
+        height: 19px;
+
+    }
+
+    /* hero-2 */
+
+
+    .btn-indi1 {
+
+        margin-right: 2%;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .btn-indicators1 {
+        top: 8%;
+    }
+
+
+    .hero-2 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 8%;
+        right: 0;
+        left: 0;
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: small;
+
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 37px;
+        margin-bottom: 0px;
+    }
+
+    .btn-mob-marg {
+
+        margin-left: 4% !important;
+    }
+
+
+    /* product slider */
+    .card-size {
+
+        width: 10rem !important;
+        height: 43rem !important;
+    }
+
+    .product-img {
+
+        width: 8rem !important;
+
+    }
+
+    .btn-size {
+
+        margin-top: 0.5rem !important;
+
+    }
+
+    .btn-size1 {
+        margin-top: 5rem !important;
+    }
+
+    .btn-size2 {
+        margin-top: 3rem !important;
+    }
+
+    .btn-size3 {
+        margin-top: 2rem !important;
+    }
+
+    .btn-sizeultra{
+
+        margin-top: 5rem !important;
+
+    }
+
+    .btn-sizebuds{
+        margin-top: 2rem;
+    }
+
+}
+
+/* resposive for i pad and tab */
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+
+    /* slider */
+
+
+    /* slider button */
+
+    .slider-next {
+        width: 17px;
+        height: 17px;
+
+    }
+
+    /* slide 1 */
+    .slide-mid {
+
+        position: absolute;
+        top: 34%;
+        left: 15%
+    }
+
+    .slide-mid h2 {
+
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .slider-btn {
+
+        width: 95px;
+        height: 25px;
+        font-size: small;
+        font-weight: bold;
+
+    }
+
+    .slide-mid p {
+        font-size: small;
+    }
+
+
+    /* slide 2 */
+
+    .slide-mid2 {
+        position: absolute;
+        top: 40%;
+        left: 12%
+    }
+
+
+    .slide-mid2 h2 {
+
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .slider-btn2 {
+
+        width: 90px;
+        height: 20px;
+        font-size: small;
+    }
+
+    .slide-mid2 p {
+
+        font-size: small;
+        margin-bottom: 2px;
+
+    }
+
+
+    /* slider 3  */
+
+
+    .slide-mid3 {
+        position: absolute;
+        top: 27%;
+        left: 48%
+    }
+
+
+    .slide-mid3 h2 {
+
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+
+    .slider-btn3 {
+
+        width: 100px;
+        height: 25px;
+        font-size: x-small;
+    }
+
+    .slide-mid3 p {
+
+        margin-bottom: 2px;
+        font-size: small;
+
+
+    }
+
+
+    /* HERO 1 */
+
+
+
+    .btn-indicators {
+
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+
+    .hero-h1 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+    .btn-indicators::after {
+
+        top: 14px;
+    }
+
+
+    .indicator {
+        margin-top: -12px;
+    }
+
+
+
+
+    .box1-btn {
+
+        position: absolute;
+        bottom: 5%;
+
+
+    }
+
+
+    .box1-btn button {
+
+
+
+        width: 70px;
+        font-weight: 600;
+        height: 25px;
+
+    }
+
+
+    .box1-p {
+
+        bottom: 0%;
+        font-size: x-small;
+
+    }
+
+
+    .box1-h1 h5 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+
+
+
+
+    .box2-h1 {
+
+        bottom: 17%;
+
+
+    }
+
+    .box2-h1 h5 {
+
+        font-size: xx-small;
+
+    }
+
+    .box2-p {
+
+        bottom: -13%;
+        font-size: 6px;
+
+    }
+
+    .box2-btn {
+
+        bottom: 5%;
+
+
+    }
+
+
+    .box2-btn button {
+
+
+        font-size: 6px;
+        width: 35px;
+        font-weight: 600;
+        height: 10px;
+
+    }
+
+
+
+    /* hero-2 */
+
+    .btn-indi1 {
+
+        margin-right: 3%;
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    .hero2-box {
+
+        position: absolute;
+        bottom: 2%;
+
+    }
+
+    .hero2-box p {
+
+        margin-bottom: 0px;
+        font-size: 8px;
+
+    }
+
+    .hero2-headh1 {
+
+        font-size: x-large;
+    }
+
+    .hero2-box h1 {
+
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .hero2-btn {
+
+        width: 48px;
+        height: 18px;
+        font-size: xx-small;
+    }
+
+    .hero2-btnhead {
+
+        margin-top: 0px !important;
+    }
+
+
+
+    /* product slider */
+    .card-size {
+
+        width: 15rem !important;
+        height: 43rem !important;
+    }
+
+    .btn-size {
+
+        margin-top: 0.5rem !important;
+
+    }
+
+    .btn-size1 {
+        margin-top: 3rem !important;
+    }
+
+    .btn-size2 {
+        margin-top: 1.5rem !important;
+    }
+
+    .btn-size3 {
+        margin-top: 2rem !important;
+    }
+
+   
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 481px) {
 
 
 
@@ -785,11 +1543,11 @@ button:active {
 
     }
 
-    .nav-heg{
+    .nav-heg {
         height: 60px;
     }
 
-    .break{
+    .break {
         display: block;
     }
 
