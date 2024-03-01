@@ -156,16 +156,17 @@ $('.owl-carousel').owlCarousel({
   loop: false,
   margin: 10,
   nav: false,
+  center: false ,
 
 
   responsive: {
     0: {
       items: 2
     },
-    600: {
+    768: {
       items: 3
     },
-    1000: {
+    1400: {
       items: 4
     }
   }
@@ -192,6 +193,8 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
+
 // 2
 
 var header = document.getElementById("strg1");
@@ -212,7 +215,45 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
+// 3
 
+var header = document.getElementById("strg4");
+
+var btns = header.getElementsByClassName("Product-btn2");
+
+for (var i = 0; i < btns.length; i++) {
+
+  btns[i].addEventListener("click", function () {
+
+    var current = document.getElementsByClassName("strg-active4");
+
+    current[0].className = current[0].className.replace("strg-active4", "");
+
+    this.className += " strg-active4";
+
+  });
+}
+
+// 4
+
+// 3
+
+var header = document.getElementById("strg6");
+
+var btns = header.getElementsByClassName("Product-btn2");
+
+for (var i = 0; i < btns.length; i++) {
+
+  btns[i].addEventListener("click", function () {
+
+    var current = document.getElementsByClassName("strg-active3");
+
+    current[0].className = current[0].className.replace("strg-active3", "");
+
+    this.className += " strg-active3";
+
+  });
+}
 
 
 
@@ -300,4 +341,61 @@ function btn11() {
 
 }
 
+function btn12() {
 
+  document.getElementById("color4").innerHTML =":Graphite"
+  document.getElementById("img5").src ="https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-buds2-r177-sm-r177nzkainu-thumb-481740607?$216_216_PNG$"
+
+}
+
+
+function btn13() {
+
+  document.getElementById("color4").innerHTML =":Onxy"
+  document.getElementById("img5").src ="https://images.samsung.com/is/image/samsung/p6pim/in/sm-r177nztainu/gallery/in-galaxy-buds2-r177-399963-sm-r177nztainu-thumb-533256909?$216_216_PNG$"
+
+}
+
+function btn14() {
+
+  document.getElementById("color4").innerHTML =":Olive"
+  document.getElementById("img5").src ="https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-buds2-r177-sm-r177nzgainu-thumb-481740586?$216_216_PNG$"
+
+}
+
+
+
+function btn15() {
+
+  document.getElementById("color5").innerHTML =":Black"
+  document.getElementById("img6").src ="https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-classic-399208-sm-r890nzkainu-thumb-481180997?$216_216_PNG$"
+
+}
+function btn16() {
+
+  document.getElementById("color5").innerHTML =":Sliver"
+  document.getElementById("img6").src ="https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-classic-399208-sm-r890nzsainu-thumb-481181010?$216_216_PNG$"
+
+}
+
+
+function btn17() {
+
+  document.getElementById("color6").innerHTML =":Dark Blue"
+  document.getElementById("img7").src ="https://images.samsung.com/is/image/samsung/p6pim/in/sm-x210ndbeins/gallery/in-galaxy-tab-a9-plus-sm-x210-sm-x210ndbeins-thumb-538733692?$216_216_PNG$"
+
+}
+
+function btn18() {
+
+  document.getElementById("color6").innerHTML =":Gray"
+  document.getElementById("img7").src ="https://images.samsung.com/is/image/samsung/p6pim/in/sm-x210nzaeins/gallery/in-galaxy-tab-a9-plus-sm-x210-sm-x210nzaeins-thumb-538733708?$216_216_PNG$"
+
+}
+
+function btn19() {
+
+  document.getElementById("color6").innerHTML =":Sliver"
+  document.getElementById("img7").src ="https://images.samsung.com/is/image/samsung/p6pim/in/sm-x210nzseins/gallery/in-galaxy-tab-a9-plus-sm-x210-sm-x210nzseins-thumb-538733724?$216_216_PNG$"
+
+}

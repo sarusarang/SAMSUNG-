@@ -39,6 +39,10 @@ body {
 
 }
 
+.nav-heg{
+    height: 80px;
+}
+
 .nav-text-style:hover {
 
     background-color: #000;
@@ -593,12 +597,12 @@ body {
 
 }
 
-.border-active1{
+.border-active1 {
 
     border-bottom: 3px solid #000;
 }
 
-.border-active2{
+.border-active2 {
     border-bottom: 3px solid #000;
 
 }
@@ -607,61 +611,64 @@ body {
 /* PRODUCT-SLIDER */
 
 .col-carousel {
-	margin: 70px 0;
+    margin: 70px 0;
 }
 
 /* owl nav */
-.owl-prev span, .owl-next span {
-	color: #FFF;
+.owl-prev span,
+.owl-next span {
+    color: #FFF;
 }
 
-.owl-prev span:hover, 
+.owl-prev span:hover,
 .owl-next span:hover {
-	color: #8199A3;
+    color: #8199A3;
 }
 
-.owl-prev, .owl-next {
-	position: absolute;
-	top: 0;
-	height: 100%;
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
 }
 
 .owl-prev {
-	left: 7px;
+    left: 7px;
 }
 
 .owl-next {
-	right: 7px;
+    right: 7px;
 }
 
 /* removing blue outline from buttons */
-button:focus, button:active {
-   outline: none;
+button:focus,
+button:active {
+    outline: none;
 }
 
 
-.Product-card{
+.Product-card {
 
     background-color: #f7f7f7;
     border: none;
     border-radius: 17px;
-    
+
 }
 
-.card-title{
+.card-title {
 
     font-weight: bold;
     margin-top: 3px;
     font-size: medium;
 }
 
-.card-text{
+.card-text {
 
     font-size: small;
     font-weight: bold;
 }
 
-.card-text span{
+.card-text span {
 
     font-size: smaller;
     color: #767676;
@@ -669,7 +676,7 @@ button:focus, button:active {
 }
 
 
-.Product-btn{
+.Product-btn {
 
     width: 20px;
     height: 20px;
@@ -679,14 +686,14 @@ button:focus, button:active {
 
 }
 
-.Product-btn:focus{
+.Product-btn:focus {
 
     border: dotted white;
 
 
 }
 
-.Product-btn2{
+.Product-btn2 {
 
     border: none;
     border-radius: 22px;
@@ -699,43 +706,50 @@ button:focus, button:active {
 
 }
 
-.strg-active{
+.strg-active {
 
     border: 1px solid #000;
 
 }
 
-.strg-active2{
+.strg-active2 {
 
     border: 1px solid #000;
 
 }
 
-.strg-active3{
+.strg-active3 {
 
     border: 1px solid #000;
 
 }
 
-.Product-price p{
+
+.strg-active4 {
+
+    border: 1px solid #000;
+
+}
+
+.Product-price p {
 
     margin-bottom: 0px;
     font-size: 11px;
 }
 
-.Product-price a{
+.Product-price a {
 
     margin-bottom: 0px;
     font-size: 11px;
 }
 
-.Product-price span{
+.Product-price span {
 
     font-size: 12px;
     color: blue;
 }
 
-.Product-buybtn{
+.Product-buybtn {
 
     width: 90%;
     height: 40px;
@@ -750,11 +764,11 @@ button:focus, button:active {
 
 }
 
-
+.break{
+    display: none;
+}
 
 /* responsive */
-
-
 
 /* resposive for mobile device */
 
@@ -769,6 +783,14 @@ button:focus, button:active {
         margin-right: 0px;
 
 
+    }
+
+    .nav-heg{
+        height: 60px;
+    }
+
+    .break{
+        display: block;
     }
 
     .icon-size {
@@ -1087,10 +1109,6 @@ button:focus, button:active {
 
 
 
-
-
-
-
     .box2-h1 {
 
         bottom: 23%;
@@ -1139,7 +1157,7 @@ button:focus, button:active {
         font-size: 10px;
     }
 
-    .btn-indicators1{
+    .btn-indicators1 {
         top: 8%;
     }
 
@@ -1171,11 +1189,42 @@ button:focus, button:active {
         margin-bottom: 0px;
     }
 
-    .btn-mob-marg{
+    .btn-mob-marg {
 
         margin-left: 4% !important;
     }
 
+
+    /* product slider */
+    .card-size {
+
+        width: 12rem !important;
+        height: 43rem !important;
+    }
+
+    .product-img {
+
+        width: 10rem !important;
+
+    }
+
+    .btn-size {
+
+        margin-top: 0.5rem !important;
+
+    }
+
+    .btn-size1 {
+        margin-top: 3rem !important;
+    }
+
+    .btn-size2 {
+        margin-top: 1.5rem !important;
+    }
+
+    .btn-size3 {
+        margin-top: 2rem !important;
+    }
 
 
 }
@@ -1442,6 +1491,33 @@ button:focus, button:active {
         margin-top: 0px !important;
     }
 
+
+
+    /* product slider */
+    .card-size {
+
+        width: 15rem !important;
+        height: 43rem !important;
+    }
+
+    .btn-size {
+
+        margin-top: 0.5rem !important;
+
+    }
+
+    .btn-size1 {
+        margin-top: 3rem !important;
+    }
+
+    .btn-size2 {
+        margin-top: 1.5rem !important;
+    }
+
+    .btn-size3 {
+        margin-top: 2rem !important;
+    }
+
 }
 
 /* responsive for i pad and tabs */
@@ -1672,6 +1748,31 @@ button:focus, button:active {
         font-size: x-small;
     }
 
+
+    /* product slider */
+    .card-size {
+
+        width: 15rem !important;
+        height: 43rem !important;
+    }
+
+    .btn-size {
+
+        margin-top: 0.5rem !important;
+
+    }
+
+    .btn-size1 {
+        margin-top: 3rem !important;
+    }
+
+    .btn-size2 {
+        margin-top: 1.5rem !important;
+    }
+
+    .btn-size3 {
+        margin-top: 2rem !important;
+    }
 }
 
 /* responsive for desktop and laptops */
@@ -1889,6 +1990,31 @@ button:focus, button:active {
         width: 72px;
         height: 25px;
         font-size: small;
+    }
+
+    /* product slider */
+    .card-size {
+
+        width: 13rem !important;
+        height: 43rem !important;
+    }
+
+    .btn-size {
+
+        margin-top: 0.5rem !important;
+
+    }
+
+    .btn-size1 {
+        margin-top: 3rem !important;
+    }
+
+    .btn-size2 {
+        margin-top: 1.5rem !important;
+    }
+
+    .btn-size3 {
+        margin-top: 2rem !important;
     }
 
 }
