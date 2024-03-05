@@ -768,13 +768,93 @@ button:active {
     display: none;
 }
 
+
+/* Explore */
+
+.explore-main {
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.explore-h1 {
+
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.explore-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    width: 95%;
+
+
+}
+
+.explore-img img {
+
+    transition: all .3s ease;
+    object-fit: cover;
+
+}
+
+.explore-img img:hover {
+
+    transform: scale(1.08);
+}
+
+.sidehover-p {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    font-weight: 600;
+
+}
+
+.sidehover-h1 {
+
+    font-size: x-large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.sidehover-learnmore a {
+
+    color: #000;
+    font-size: medium;
+    text-decoration: underline;
+    font-weight: 600;
+    display: none;
+
+}
+
+
+.sidehover {
+
+    transition: padding-top ease-out 0.1s;
+}
+
+.sidehover:hover .sidehover-learnmore a {
+
+    display: block;
+}
+
+.sidehover:hover {
+
+    border-top: 2px solid #000;
+    padding-top: 5%;
+}
+
+
 /* responsive */
 
 /* resposive for mobile device */
 
 @media only screen and (max-width: 400px) {
 
-/* navbar */
+    /* navbar */
     .logo-size {
 
         margin-left: 0px;
@@ -1224,15 +1304,30 @@ button:active {
         margin-top: 2rem !important;
     }
 
-    .btn-sizeultra{
+    .btn-sizeultra {
 
         margin-top: 5rem !important;
 
     }
 
-    .btn-sizebuds{
+    .btn-sizebuds {
         margin-top: 2rem;
     }
+
+
+    /* Explore */
+
+    .explore-main {
+
+        display: none;
+
+    }
+
+    .explore-mob{
+
+        display: block;
+    }
+
 
 }
 
@@ -1525,7 +1620,20 @@ button:active {
         margin-top: 2rem !important;
     }
 
-   
+    /* Explore */
+
+    .explore-main {
+
+        display: none;
+
+    }
+
+
+    .explore-mob{
+
+        display: block;
+    }
+
 
 
 }
@@ -1985,6 +2093,20 @@ button:active {
     }
 
 
+
+    /* Explore */
+
+    .explore-main {
+
+        display: none;
+
+    }
+
+    .explore-mob{
+
+        display: block;
+    }
+
 }
 
 /* resposive for i pad and tab */
@@ -2276,6 +2398,12 @@ button:active {
         margin-top: 2rem !important;
     }
 
+
+    .explore-mob{
+
+        display: block;
+    }
+
 }
 
 /* responsive for i pad and tabs */
@@ -2531,6 +2659,50 @@ button:active {
     .btn-size3 {
         margin-top: 2rem !important;
     }
+
+
+
+    /* Explore */
+
+
+    .sidehover-p {
+        font-size: x-small;
+        margin-right: 2% !important;
+    }
+
+    .sidehover-h1 {
+
+        font-size: medium;
+    }
+
+    .sidehover-learnmore a {
+
+        font-size: medium;
+
+    }
+
+    .sidehover:hover {
+
+        padding-top: 5%;
+    }
+
+    .explore2 {
+
+        margin-top: 3% !important;
+        padding-top: 0% !important;
+        padding-left: 1% !important;
+    }
+
+    .sidehover-main {
+
+        margin-top: 4% !important;
+
+    }
+
+    .explore-mob{
+
+        display: none;
+    }
 }
 
 /* responsive for desktop and laptops */
@@ -2707,6 +2879,44 @@ button:active {
     }
 
 
+    /* Explore */
+
+
+    .sidehover-p {
+        font-size: medium;
+        font-weight: 600;
+        margin-right: 4% !important;
+    }
+
+    .sidehover-h1 {
+
+        font-size: larger;
+
+    }
+
+    .sidehover:hover {
+
+        padding-top: 5%;
+    }
+
+    .explore2 {
+
+        margin-top: 7% !important;
+        padding-top: 0% !important;
+        padding-left: 2% !important;
+    }
+
+    .sidehover-main {
+
+        margin-top: 3% !important;
+
+
+    }
+
+    .explore-mob{
+
+        display: none;
+    }
 
 }
 
@@ -2903,6 +3113,11 @@ button:active {
         bottom: 4%;
         font-size: small;
 
+    }
+
+    .explore-mob{
+
+        display: none;
     }
 
 }

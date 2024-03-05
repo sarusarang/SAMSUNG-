@@ -8,7 +8,7 @@ function Mob() {
 
   if (windowWidth < 481) {
 
-    document.getElementById('mob').src = 'Img/MOBILE VIEW.webm'
+    document.getElementById('mob').src = 'Img/mob-s24.webm'
     document.getElementById('video').load()
 
   }
@@ -399,3 +399,44 @@ function btn19() {
   document.getElementById("img7").src ="https://images.samsung.com/is/image/samsung/p6pim/in/sm-x210nzseins/gallery/in-galaxy-tab-a9-plus-sm-x210-sm-x210nzseins-thumb-538733724?$216_216_PNG$"
 
 }
+
+
+// on hover change the image of the  Explore Section
+
+const sidehover = document.getElementById('sidehover')
+
+// 1
+sidehover.addEventListener('mouseenter',()=>{
+
+  document.getElementById('imghov').src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_explore_detail/life-hacks/mx0147_tips-for-navigating-big-life-changes/mx0147_home-explore-banner_pc_684x684.jpg?$684_684_PNG$"
+
+
+})
+
+// 2
+const sidehover2 = document.getElementById('sidehover2')
+
+sidehover2.addEventListener('mouseenter',()=>{
+
+  document.getElementById('imghov').src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_explore_detail/entertainment/vd0040_explore_feel-free-to-freestyle/vd0026_home-explore-banner_pc_684x684.jpg?$684_684_PNG$"
+
+})
+
+
+// 3
+const sidehover3 = document.getElementById('sidehover3')
+
+sidehover3.addEventListener('mouseenter',()=>{
+
+  document.getElementById('imghov').src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_explore_detail/food-home/da0050-3-hosting-tips-to-alleviate-holiday-stress/da0050_home_explore-banner_pc_684x684.jpg?$684_684_PNG$"
+
+})
+
+// 4
+const sidehover4 = document.getElementById('sidehover4')
+
+sidehover4.addEventListener('mouseenter',()=>{
+
+  document.getElementById('imghov').src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_explore_detail/brand/global0028_explore_meet-g-nusmas/global0028_home-explore-banner_pc_684x684.jpg?$684_684_PNG$"
+
+})
