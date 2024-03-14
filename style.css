@@ -848,6 +848,86 @@ button:active {
 }
 
 
+.exp-slide-img {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 22px;
+}
+
+.exp-slide-img img {
+
+    border-radius: 22px;
+    transition: all .3s ease;
+    object-fit: cover;
+
+}
+
+.exp-slide-img img:hover {
+
+    transform: scale(1.09);
+
+}
+
+
+.exp-slide-text a {
+
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.exp-slide-text h5 {
+
+    font-weight: bold;
+
+}
+
+.carousel-indicators1{
+
+    margin-bottom: -2rem !important;
+    border-radius: 18px;
+    border: 1px solid #d9d3d3;
+    margin-left: 36% !important;
+    margin-right: 36% !important;
+    width: 6rem !important;
+
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  
+}
+
+.exp-btn{
+
+    width:10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #000 !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    margin-top: 7px !important;
+    margin-right: 5px !important;
+
+}
+
+
+
+
+
+
+
+
 /* responsive */
 
 /* resposive for mobile device */
@@ -940,7 +1020,7 @@ button:active {
 
     }
 
-    .mob-btn {
+    .mob-btn{
 
         background-color: #767676 !important;
         height: 9px !important;
@@ -1323,9 +1403,10 @@ button:active {
 
     }
 
-    .explore-mob{
+    .explore-mob {
 
         display: block;
+        height: 500px;
     }
 
 
@@ -1629,11 +1710,27 @@ button:active {
     }
 
 
-    .explore-mob{
+    .explore-mob {
 
         display: block;
+        height: 700px !important;
     }
 
+
+    .carousel-indicators1{
+
+        margin-left: 40% !important;
+        margin-right: 40% !important;
+        width: 6rem !important;
+        height: 20px !important;
+      
+    }
+    
+    .exp-btn{
+        margin-top: 4px !important;
+        margin-right: 5px !important;
+    
+    }
 
 
 }
@@ -2102,9 +2199,26 @@ button:active {
 
     }
 
-    .explore-mob{
+    .explore-mob {
 
         display: block;
+        height: 600px;
+    }
+
+
+    .carousel-indicators1{
+
+        margin-left: 38% !important;
+        margin-right: 38% !important;
+        width: 6rem !important;
+        height: 20px !important;
+      
+    }
+    
+    .exp-btn{
+        margin-top: 4px !important;
+        margin-right: 5px !important;
+    
     }
 
 }
@@ -2399,7 +2513,7 @@ button:active {
     }
 
 
-    .explore-mob{
+    .explore-mob {
 
         display: block;
     }
@@ -2699,7 +2813,7 @@ button:active {
 
     }
 
-    .explore-mob{
+    .explore-mob {
 
         display: none;
     }
@@ -2913,7 +3027,7 @@ button:active {
 
     }
 
-    .explore-mob{
+    .explore-mob {
 
         display: none;
     }
@@ -3099,8 +3213,6 @@ button:active {
     }
 
 
-
-
 }
 
 
@@ -3115,7 +3227,7 @@ button:active {
 
     }
 
-    .explore-mob{
+    .explore-mob {
 
         display: none;
     }
