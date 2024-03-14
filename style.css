@@ -887,7 +887,7 @@ button:active {
 
 }
 
-.carousel-indicators1{
+.carousel-indicators1 {
 
     margin-bottom: -2rem !important;
     border-radius: 18px;
@@ -905,12 +905,12 @@ button:active {
     display: flex;
     justify-content: center;
     padding: 0;
-  
+
 }
 
-.exp-btn{
+.exp-btn {
 
-    width:10px !important;
+    width: 10px !important;
     height: 10px !important;
     border-radius: 50% !important;
     background-color: #000 !important;
@@ -921,10 +921,79 @@ button:active {
 
 }
 
+/* Search  */
+
+.search {
+
+    margin-top: 8%;
+}
+
+.search-h1 {
+
+    font-weight: bold;
+
+}
 
 
+.search-input {
+
+    border: 1px solid #757575;
+    border-radius: 40px;
+    background-color: #f7f7f7;
+
+}
 
 
+.search-input button {
+
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-right: 1rem;
+    font-size: x-large;
+
+}
+
+.search-input input {
+
+    height: 3.5rem;
+    width: 25rem;
+    border: none;
+    outline: none;
+    font-size: larger;
+    background: transparent;
+}
+
+.search-input input:focus {
+
+    border: dotted;
+}
+
+
+.h1-hide {
+    display: none;
+
+}
+
+.h1-show {
+    display: block;
+}
+
+
+.search-btn button{
+
+    margin-right: 1rem;
+    font-size: x-small;
+    border: 1px solid #d9d3d3;
+    border-radius: 22px;
+    padding: 9px 15px 9px 15px;
+    background: transparent;
+    
+}
+
+.show-btn-search{
+    display: none;
+}
 
 
 
@@ -1020,7 +1089,7 @@ button:active {
 
     }
 
-    .mob-btn{
+    .mob-btn {
 
         background-color: #767676 !important;
         height: 9px !important;
@@ -1409,6 +1478,37 @@ button:active {
         height: 500px;
     }
 
+    /* Search */
+
+    .search {
+
+        margin-top: 20%;
+    }
+
+    .search-input button {
+
+
+        margin-right: 1rem;
+        font-size: larger;
+
+    }
+
+    .search-input input {
+
+        height: 3.5rem;
+        width: 18rem;
+        font-size: large;
+    }
+
+    .show-btn-search{
+        display: block;
+    }
+    
+    .hide-btn-search{
+
+        display: none;
+    }
+
 
 }
 
@@ -1717,19 +1817,19 @@ button:active {
     }
 
 
-    .carousel-indicators1{
+    .carousel-indicators1 {
 
         margin-left: 40% !important;
         margin-right: 40% !important;
         width: 6rem !important;
         height: 20px !important;
-      
+
     }
-    
-    .exp-btn{
+
+    .exp-btn {
         margin-top: 4px !important;
         margin-right: 5px !important;
-    
+
     }
 
 
@@ -2206,20 +2306,48 @@ button:active {
     }
 
 
-    .carousel-indicators1{
+    .carousel-indicators1 {
 
         margin-left: 38% !important;
         margin-right: 38% !important;
         width: 6rem !important;
         height: 20px !important;
-      
+
     }
-    
-    .exp-btn{
+
+    .exp-btn {
         margin-top: 4px !important;
         margin-right: 5px !important;
-    
+
     }
+
+    /* Search */
+
+    .search-input button {
+
+
+        margin-right: 1rem;
+        font-size: larger;
+
+    }
+
+    .search-input input {
+
+        height: 3.5rem;
+        width: 18rem;
+        font-size: large;
+    }
+
+
+    .show-btn-search{
+        display: block;
+    }
+    
+    .hide-btn-search{
+
+        display: none;
+    }
+
 
 }
 
@@ -2516,6 +2644,22 @@ button:active {
     .explore-mob {
 
         display: block;
+    }
+
+    /* Search */
+
+    .search-input button {
+
+        margin-right: 1rem;
+        font-size: larger;
+
+    }
+
+    .search-input input {
+
+        height: 3.5rem;
+        width: 18rem;
+        font-size: large;
     }
 
 }
@@ -2817,6 +2961,23 @@ button:active {
 
         display: none;
     }
+
+    /* Search */
+
+    .search-input button {
+
+
+        margin-right: 1rem;
+        font-size: larger;
+
+    }
+
+    .search-input input {
+
+        height: 3.5rem;
+        width: 18rem;
+        font-size: large;
+    }
 }
 
 /* responsive for desktop and laptops */
@@ -3099,6 +3260,22 @@ button:active {
         margin-top: 2rem !important;
     }
 
+    /* Search */
+
+    .search-input button {
+
+
+        margin-right: 1rem;
+        font-size: x-large;
+
+    }
+
+    .search-input input {
+
+        height: 3.5rem;
+        width: 21rem;
+        font-size: larger;
+    }
 }
 
 
@@ -3163,6 +3340,23 @@ button:active {
         height: 35px;
         border-radius: 22px;
         font-weight: 600;
+    }
+
+    /* search */
+
+    .search-input button {
+
+
+        margin-right: 1rem;
+        font-size: x-large;
+
+    }
+
+    .search-input input {
+
+        height: 3.5rem;
+        width: 22rem;
+        font-size: larger;
     }
 }
 
