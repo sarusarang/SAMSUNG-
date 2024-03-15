@@ -995,7 +995,10 @@ button:active {
     display: none;
 }
 
+.foot-text p{
 
+    font-size: small;
+}
 
 
 
@@ -1513,6 +1516,10 @@ button:active {
     }
 
     
+    .foot-text p{
+
+        font-size:x-small;
+    }
 
 
 
@@ -2355,6 +2362,11 @@ button:active {
         display: none;
     }
 
+
+    .foot-text p{
+
+        font-size: x-small;
+    }
    
 
     .foot-table{
