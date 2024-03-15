@@ -2363,7 +2363,12 @@ button:active {
 
     .foot-text p{
 
-        font-size: x-small;
+        font-size: x-small
+    }
+
+    .foot-table{
+
+        
     }
 
 }
