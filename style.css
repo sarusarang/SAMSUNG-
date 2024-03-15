@@ -1501,9 +1501,9 @@ button:active {
 
     .search-input input {
 
-        height: 3.5rem;
-        width: 18rem;
-        font-size: large;
+        height: 3rem;
+        width: 16rem;
+        font-size: medium;
     }
 
     .show-btn-search{
@@ -2347,9 +2347,9 @@ button:active {
 
     .search-input input {
 
-        height: 3.5rem;
-        width: 18rem;
-        font-size: large;
+        height: 3rem;
+        width: 16rem;
+        font-size: medium;
     }
 
 
