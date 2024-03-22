@@ -980,7 +980,7 @@ button:active {
 }
 
 
-.search-btn button{
+.search-btn button {
 
     margin-right: 1rem;
     font-size: x-small;
@@ -988,19 +988,112 @@ button:active {
     border-radius: 22px;
     padding: 9px 15px 9px 15px;
     background: transparent;
-    
+
 }
 
-.show-btn-search{
+.show-btn-search {
     display: none;
 }
 
-.foot-text p{
+.foot-text p {
 
     font-size: small;
 }
 
+/* TABLE */
 
+.table-inner h5 {
+
+    font-weight: bold;
+
+}
+
+.table-inner ul {
+    padding-left: 0px !important;
+    list-style-type: none;
+
+
+}
+
+.table-inner li {
+
+    margin-top: 3%;
+}
+
+.table-inner li:hover a {
+
+    text-decoration: underline;
+}
+
+.table-inner li:focus {
+
+    border: dotted;
+}
+
+.table-inner a {
+
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* table on mob */
+
+.table-show:hover .table-hover{
+
+
+    display: block;
+
+    
+}
+
+.table-hover{
+
+    display: none;
+    transition: display ease-in 0.6s;
+}
+
+.table-hover ul{
+
+    list-style-type: none;
+   
+    
+
+}
+
+.table-hover li{
+
+    margin-top: 2%;
+
+}
+.table-hover li:hover{
+
+    text-decoration: underline;
+}
+
+
+
+.table-hover a{
+
+    text-decoration: none;
+    color: #7e7e7e;
+    font-size: larger;
+}
+
+.hover-head h2 {
+
+    font-weight: bold;
+
+}
+
+.hover-head button{
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: xx-large;
+
+}
 
 
 /* responsive */
@@ -1506,23 +1599,50 @@ button:active {
         font-size: medium;
     }
 
-    .show-btn-search{
+    .show-btn-search {
         display: block;
     }
-    
-    .hide-btn-search{
+
+    .hide-btn-search {
 
         display: none;
     }
 
-    
-    .foot-text p{
 
-        font-size:x-small;
+    .foot-text p {
+
+        font-size: x-small;
     }
 
 
+    /* TABLE  */
 
+    .table-lg {
+
+        display: none;
+
+    }
+
+
+    
+
+.table-hover a{
+
+    font-size: medium;
+}
+
+.hover-head h2 {
+
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.hover-head button{
+
+    font-size: large;
+
+}
 
 }
 
@@ -1845,6 +1965,18 @@ button:active {
         margin-right: 5px !important;
 
     }
+
+
+    /* TABLE  */
+
+    .table-lg {
+
+        display: none;
+
+    }
+
+
+    
 
 
 }
@@ -2353,27 +2485,48 @@ button:active {
     }
 
 
-    .show-btn-search{
+    .show-btn-search {
         display: block;
     }
-    
-    .hide-btn-search{
+
+    .hide-btn-search {
 
         display: none;
     }
 
 
-    .foot-text p{
+    .foot-text p {
 
         font-size: x-small;
     }
-   
 
-    .foot-table{
 
+    /* TABLE  */
+
+    .table-lg {
+
+        display: none;
 
     }
+    
 
+    .table-hover a{
+
+        font-size: medium;
+    }
+    
+    .hover-head h2 {
+    
+        font-weight: bold;
+        font-size: larger;
+    
+    }
+    
+    .hover-head button{
+    
+        font-size: large;
+    
+    }
 }
 
 /* resposive for i pad and tab */
@@ -3003,6 +3156,20 @@ button:active {
         width: 18rem;
         font-size: large;
     }
+
+
+     /* TABLE */
+
+     .table-inner h5 {
+        font-size: small;
+
+    }
+
+    .table-inner a {
+
+        font-size: 11px;
+    }
+
 }
 
 /* responsive for desktop and laptops */
@@ -3301,6 +3468,21 @@ button:active {
         width: 21rem;
         font-size: larger;
     }
+
+
+    /* TABLE */
+
+    .table-inner h5 {
+        font-size: small;
+
+    }
+
+    .table-inner a {
+
+        font-size: 11px;
+    }
+
+
 }
 
 
