@@ -1039,41 +1039,42 @@ button:active {
 
 /* table on mob */
 
-.table-show:hover .table-hover{
+.table-show:hover .table-hover {
 
 
     display: block;
 
-    
+
 }
 
-.table-hover{
+.table-hover {
 
     display: none;
     transition: display ease-in 0.6s;
 }
 
-.table-hover ul{
+.table-hover ul {
 
     list-style-type: none;
-   
-    
+
+
 
 }
 
-.table-hover li{
+.table-hover li {
 
     margin-top: 2%;
 
 }
-.table-hover li:hover{
+
+.table-hover li:hover {
 
     text-decoration: underline;
 }
 
 
 
-.table-hover a{
+.table-hover a {
 
     text-decoration: none;
     color: #7e7e7e;
@@ -1086,7 +1087,7 @@ button:active {
 
 }
 
-.hover-head button{
+.hover-head button {
 
     border: none;
     outline: none;
@@ -1095,6 +1096,69 @@ button:active {
 
 }
 
+.table-mob {
+
+    display: none;
+}
+
+/* footer */
+
+.foot-text p {
+
+    font-size: 11px;
+
+}
+
+.foot-text {
+
+    width: 50%;
+}
+
+.foot-terms a {
+
+    text-decoration: none;
+    color: #8b8b8b;
+    font-size: small;
+    margin-right: 5%;
+}
+
+.foot-logo p {
+
+    margin-right: 3%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+}
+
+.foot-logo a {
+
+    margin-right: 3%;
+    font-size: x-large
+}
+
+
+.foot-logo2 p {
+
+    margin-right: 3%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+
+}
+
+.foot-logo2 a {
+
+    margin-right: 3%;
+    font-size: x-large
+}
+
+.foot-logo2{
+    display: none;
+}
 
 /* responsive */
 
@@ -1623,26 +1687,71 @@ button:active {
 
     }
 
+    .table-mob {
 
+        display: block;
+    }
+
+
+
+
+    .table-hover a {
+
+        font-size: medium;
+    }
+
+    .hover-head h2 {
+
+        font-weight: bold;
+        font-size: larger;
+
+    }
+
+    .hover-head button {
+
+        font-size: large;
+
+    }
+
+
+     /* foot */
     
+     .foot-terms a {
 
-.table-hover a{
+        font-size: x-small;
+        margin-right: 3%;
+    }
 
-    font-size: medium;
-}
+    .foot-text {
 
-.hover-head h2 {
+        width: 100%;
+    }
 
-    font-weight: bold;
-    font-size: larger;
+    .foot-logo{
 
-}
+        display: none !important;
+    }
 
-.hover-head button{
+    .foot-terms a {
 
-    font-size: large;
+        font-size: x-small;
+        margin-right: 5%;
+       
+    }
 
-}
+    .foot-terms{
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+
+    .foot-logo2{
+        display: block;
+    }
+    
 
 }
 
@@ -1975,8 +2084,12 @@ button:active {
 
     }
 
+    .table-mob {
 
-    
+        display: block;
+    }
+
+
 
 
 }
@@ -2503,30 +2616,76 @@ button:active {
 
     /* TABLE  */
 
+
+    .table-mob {
+
+        display: block;
+    }
+
     .table-lg {
 
         display: none;
 
     }
-    
 
-    .table-hover a{
+
+    .table-hover a {
 
         font-size: medium;
     }
-    
+
     .hover-head h2 {
-    
+
         font-weight: bold;
         font-size: larger;
-    
+
     }
-    
-    .hover-head button{
-    
+
+    .hover-head button {
+
         font-size: large;
-    
+
     }
+
+
+     /* foot */
+    
+     .foot-terms a {
+
+        font-size: x-small;
+        margin-right: 3%;
+    }
+
+    .foot-text {
+
+        width: 100%;
+    }
+
+    .foot-logo{
+
+        display: none !important;
+    }
+
+    .foot-terms a {
+
+        font-size: small;
+        margin-right: 5%;
+       
+    }
+
+    .foot-terms{
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+
+    .foot-logo2{
+        display: block;
+    }
+    
 }
 
 /* resposive for i pad and tab */
@@ -2839,6 +2998,52 @@ button:active {
         width: 18rem;
         font-size: large;
     }
+
+    .table-mob {
+
+        display: block;
+    }
+
+
+     /* foot */
+    
+     .foot-terms a {
+
+        font-size: x-small;
+        margin-right: 3%;
+    }
+
+    .foot-text {
+
+        width: 100%;
+    }
+
+    .foot-logo{
+
+        display: none !important;
+    }
+
+    .foot-terms a {
+
+        font-size: small;
+        margin-right: 5%;
+       
+    }
+
+    .foot-terms{
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+
+    .foot-logo2{
+        display: block;
+        
+    }
+    
 
 }
 
@@ -3158,9 +3363,9 @@ button:active {
     }
 
 
-     /* TABLE */
+    /* TABLE */
 
-     .table-inner h5 {
+    .table-inner h5 {
         font-size: small;
 
     }
@@ -3169,6 +3374,46 @@ button:active {
 
         font-size: 11px;
     }
+
+
+    /* foot */
+    
+    .foot-terms a {
+
+        font-size: x-small;
+        margin-right: 3%;
+    }
+
+    .foot-text {
+
+        width: 100%;
+    }
+
+    .foot-logo{
+
+        display: none !important;
+    }
+
+    .foot-terms a {
+
+        font-size: small;
+        margin-right: 5%;
+       
+    }
+
+    .foot-terms{
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+
+    .foot-logo2{
+        display: block;
+    }
+    
 
 }
 
@@ -3185,6 +3430,11 @@ button:active {
         height: 30px;
 
     }
+
+    .foot-logo2{
+        display: none !important;
+    }
+
 
     /* slide 1 */
     .slide-mid {
@@ -3482,6 +3732,22 @@ button:active {
         font-size: 11px;
     }
 
+    /* foot */
+
+
+    .foot-terms a {
+
+        font-size: x-small;
+        margin-right: 3%;
+    }
+
+    .foot-text {
+
+        width: 100%;
+
+
+    }
+
 
 }
 
@@ -3631,6 +3897,10 @@ button:active {
     .explore-mob {
 
         display: none;
+    }
+
+    .foot-logo2{
+        display: none !important;
     }
 
 }
